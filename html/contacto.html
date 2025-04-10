@@ -10,16 +10,17 @@
     <h1 class="titulo">Contactanos</h1>
 
 
-    <form >
+    <form id="form">
         <h2>Nombre:</h2>
-        <input type="text" class="formulario" placeholder="Nombre y apellidos completos">
+        <input type="text" class="formulario" placeholder="Nombre y apellidos completos" required>
         <h2>Email:</h2>
-        <input type="text" class="formulario" placeholder="Correo electronico">
+        <input type="email" class="formulario" placeholder="Correo electronico" required>
         <h2>Telefono / Celular</h2>
-        <input type="text" class="formulario" placeholder="Numero de celular">
+        <input type="number" class="formulario" placeholder="Numero de celular" required>
 
         <button type="submit" id="bttnEnviar">Enviar</button>
     </form>
 
+    <script src="../script.js"></script>
 </body>
 </html>
