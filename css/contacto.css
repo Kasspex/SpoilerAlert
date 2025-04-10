@@ -1,3 +1,12 @@
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #F2DFBB; 
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
     font-family:'Times New Roman', Times, serif;
     background-color: #F2A341;
@@ -23,3 +32,115 @@ nav a {
     margin-left: 2rem;
     color: black;
 }
+
+header {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #F2A341;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+h1{
+    color: #1C2621;
+    
+}
+nav a:hover {
+    background-color: #D93D1A;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.1);   
+}
+nav a {
+    font-size: 80%;
+    justify-content: center;
+    text-decoration: none;
+    gap: 1rem;
+    margin-left: 2rem;
+    color: black;
+}
+
+
+.titulo {
+    text-align: center;
+    color: #1C2621; 
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+form h2 {
+    font-size: 1.1rem;
+    color: #646d69; 
+    margin-bottom: 8px;
+}
+
+
+.formulario {
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #F2D64B;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.formulario:focus {
+    border: 2px solid #d93d1a; 
+    outline: none;
+}
+
+
+#bttnEnviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #F2A341;
+    color: #1C2621;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+
+#bttnEnviar:hover {
+    background-color: #D93D1A; 
+    color: #fff;
+}
+
+footer {
+    background-color: #1c2621;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 75px 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-top: 4px solid #D93D1A;
+    box-shadow: 0 -2px 10px #1c2621;
+  }
+  
+  footer i {
+    margin-right: 8px;
+    color: #f2a341;
+  }
+  
+  footer p {
+    margin: 8px 0;
+  }
+
+
+
+    
