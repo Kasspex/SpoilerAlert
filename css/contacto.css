@@ -1,3 +1,25 @@
-body {
-    background-color: lightblue;
+header {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #F2A341;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+h1{
+    color: #1C2621;
+    
+}
+nav a:hover {
+    background-color: #D93D1A;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.1);   
+}
+nav a {
+    font-size: 80%;
+    justify-content: center;
+    text-decoration: none;
+    gap: 1rem;
+    margin-left: 2rem;
+    color: black;
 }
